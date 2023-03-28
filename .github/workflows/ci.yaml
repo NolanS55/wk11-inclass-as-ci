@@ -15,7 +15,7 @@ jobs:
       - name: Run Jest Tests
         run: npm run ci:test
 
-      name: Run Cypress Tests
+      - name: Run Cypress Tests
         uses: cypress-io/github-action@v4
         with:
           build: npm run build

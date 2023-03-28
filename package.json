@@ -21,7 +21,8 @@
   },
   "devDependencies": {
     "cypress": "^12.8.1",
-    "eslint-config-next": "latest"
+    "eslint-config-next": "latest",
+    "jest": "^29.5.0"
   },
   "renovate": {
     "extends": [
